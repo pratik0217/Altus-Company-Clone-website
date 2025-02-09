@@ -6,6 +6,14 @@
     cursor: pointer;
 }
 
+
+.bg-img {
+    height: 750px;
+    width: 100%;
+    background-color: #000000;
+    border-bottom: 2px solid white;
+}
+
 header {
     background-color: black;
     line-height: 80px;
@@ -56,4 +64,53 @@ li span img {
 
 #border-box:hover {
     padding: 9.5px 17.5px;
+}
+
+.company-info {
+   padding: 150px;
+}
+
+.heading {
+    width: 1100px;
+}
+
+.heading h1 {
+    font-size: 80px;
+}
+
+.info-para p {
+    font-size: 18px;
+}
+
+main .oracle-info {
+    height: 95vh;
+    background-color: #000000;
+    padding: 0 150px;
+    padding-top: 200px;
+}
+
+.oracle-info .heading-name {
+    font-size: 46px;
+}
+
+.service-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.service-info p {
+    width: 400px;
+    font-size: 18px;
+}
+
+
+#carouselExampleAutoplaying {
+    position: relative;
+    top: 30px;
+    width: 450px;
+}
+
+.carousel-item img {
+    height: 200px;
 }
