@@ -210,10 +210,6 @@ main .oracle-info {
     border-bottom-left-radius: 30px;
 }
 
-.other-service-container :hover {
-    height: 705px;
-}
-
 footer {
     background-color: aquamarine;
     /* position: relative;
