@@ -356,7 +356,6 @@ main .oracle-info {
     font-size: 27px;
 }
 
-.video-container {
-    height: 420px;
-    background-color:burlywood;
+video {
+    width: 218.5vh;
 }
