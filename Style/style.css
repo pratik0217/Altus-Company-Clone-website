@@ -10,14 +10,14 @@
 .bg-img {
     height: 750px;
     width: 100%;
-    background-color: #000000;
-    border-bottom: 2px solid white;
     color: white;
+    background-image: url(/Altus-Company-Clone-website/Logo/dark-background-photo.avif);
+    background-size: cover;
 }
 
 header {
-    background-color: black;
     line-height: 80px;
+
 }
 
 .navbar-container {
@@ -32,7 +32,7 @@ header {
     left: 60px;
 }
 
-img {
+.left-side img {
     height: 40px;
 }
 
@@ -210,15 +210,153 @@ main .oracle-info {
     border-bottom-left-radius: 30px;
 }
 
-footer {
-    background-color: aquamarine;
-    /* position: relative;
-    bottom: 0; */
-    height: 50px;
-    align-content: center;
+.workapproach-container {
+    background-color: #000000;
+    color: white;
+    height: 900px;
 }
 
-.copyright {
-    font-size: 18px;
+.workapproach .hr-line {
+    width: 195vh;
+    margin: 0 75px;
+    padding-top: 200px;
+}
+
+.workapproach h1 {
+    padding: 50px;
+    font-size: 50px;
+    padding-left: 68px;
+}
+
+.workapproach-detail {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.open-laptop img {
+    height: 515px;
+    width: 390px;
+}
+
+.detail {
+    height: 456px;
+    width: 530px;
+}
+
+.detail .detail-heading {
+    padding: 15px 0;
+}
+
+.detail .detail-heading h4{
+    font-size: 23px;
+    width: 400px;
+}
+
+.detail p {
+    font-size: 17px;
+}
+
+.career-container {
+    height: 450px;
+    color: #ffffff;
+    padding: 60px 0;
+    background-image: url(/Altus-Company-Clone-website/Logo/Career-Ladder-banner.jpeg);
+}
+
+.career-info {
+    margin-left: 15%;
     text-align: center;
+    width: 1050px;
+    height: 200px;
+}
+
+.career-info .heading h2 {
+    font-size: 50px;
+}
+
+.heading-info {
+    width: 1050px;
+}
+
+.career-info .heading-info {
+    padding-top: 30px;
+}
+
+.career-info .heading-info p {
+    font-size: 18px;
+}
+
+.more-info-link {
+    padding-top: 30px;
+}
+
+.more-info-link a {
+    padding: 11px 30px;
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+}
+
+.more-info-link a:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #3e3b3b89;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
+
+.companygraph-container {
+    background-color: #000000;
+    color: #ffffff;
+    height: 640px;
+}
+
+.company-graph .hr-line {
+    width: 195vh;
+    margin: 0 75px;
+    padding-top: 140px;
+}
+
+.company-graph .company-text h4 {
+    padding: 20px;
+    font-size: 20px;
+    padding-left: 68px;
+    text-transform: uppercase;
+}
+
+.company-graph .india-text h1 {
+    padding: 10px;
+    font-size: 50px;
+    padding-left: 68px;
+}
+
+.graph-count {
+    display: flex;
+    justify-content: space-between;
+    width: 195vh;
+    padding-left: 120px;
+    padding-top: 90px;
+}
+
+.graph-count .count-box {
+    height: 160px;
+    width: 330px;
+    padding-top: 24px;
+}
+
+.count-number p {
+    font-size: 68px;
+}
+
+.count-number i {
+    font-size: 40px;
+}
+
+.count-box .heading h3 {
+    font-size: 27px;
+}
+
+.video-container {
+    height: 420px;
+    background-color:burlywood;
 }
