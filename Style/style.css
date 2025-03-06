@@ -11,7 +11,7 @@
     height: 750px;
     width: 100%;
     color: white;
-    background-image: url(/Altus-Company-Clone-website/Logo/dark-background-photo.avif);
+    background-image: url(/Logo/dark-background-photo.avif);
     background-size: cover;
 }
 
@@ -358,4 +358,12 @@ main .oracle-info {
 
 video {
     width: 218.5vh;
+}
+
+.clinets-carousel {
+    margin-left: 35%;
+}
+
+#carouselExampleIndicators {
+    width: 50%;
 }
