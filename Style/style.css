@@ -357,11 +357,12 @@ main .oracle-info {
 }
 
 video {
-    width: 214.9vh;
+    width: 208.4vh;
 }
 
 .clients-cp-logo {
     display: flex;
-    flex-wrap: nowrap;
     width: 200px;
+    margin-left: 90px;
+    margin-top: 50px;
 }
