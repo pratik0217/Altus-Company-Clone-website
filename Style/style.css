@@ -363,6 +363,26 @@ video {
 .clients-cp-logo {
     display: flex;
     width: 200px;
-    margin-left: 90px;
-    margin-top: 50px;
+    margin: 150px 75px;
+}
+
+footer {
+    padding: 0px 75px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container .content-box {
+    width: 350px;
+}
+
+.copyright {
+    margin-top: 80px;
+}
+
+svg {
+    height: 15px;
 }

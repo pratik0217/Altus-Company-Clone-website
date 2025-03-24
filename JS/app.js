@@ -1,6 +1,6 @@
-const welcomeMsg = setTimeout(function() {
-    alert(`Hello, Welcome to Altus Company world.`);
-},4000);
+// const welcomeMsg = setTimeout(function() {
+//     alert(`Hello, Welcome to Altus Company world.`);
+// },4000);
 
 
 function showMessage() {
