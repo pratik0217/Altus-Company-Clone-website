@@ -147,6 +147,7 @@ main .oracle-info {
     border: 2px solid #000000;
     justify-content: space-between;
     height: 703px;
+    background-color: #ffffff;
 }
 
 .service-img {
@@ -157,6 +158,11 @@ main .oracle-info {
 .service1 {
     padding: 0 80px;
     padding-top: 130px;
+    background-color: #ffffff;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
 }
 
 #service-heading h4 {
@@ -198,6 +204,8 @@ main .oracle-info {
 
 #comman-service-box {
     border-radius: 30px;
+    position: sticky;
+    top: 0%;
 }
 
 #img-border-radius {
