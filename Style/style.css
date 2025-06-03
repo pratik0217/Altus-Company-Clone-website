@@ -202,11 +202,11 @@ main .oracle-info {
     margin-left: 97px;
 }
 
-#comman-service-box {
+/* #comman-service-box {
     border-radius: 30px;
     position: sticky;
     top: 0%;
-}
+} */
 
 #img-border-radius {
     border-top-right-radius: 30px;
@@ -309,7 +309,7 @@ main .oracle-info {
     color: #ffffff;
     text-decoration: none;
     background-color: #3e3b3b89;
-    border-radius: 30px;
+    border-radius: 10px;
     text-transform: uppercase;
 }
 
