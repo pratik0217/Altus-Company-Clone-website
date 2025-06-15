@@ -48,6 +48,11 @@ li {
     font-size: 17px;
 }
 
+li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 li span img {
     position: relative;
     top: 0;
