@@ -1,13 +1,9 @@
 const welcomeMsg = setTimeout(function() {
-    alert(`Hello, Welcome to Altus Company world`);
     alert("this is clone of Altus Solution Company")
 },2000);
 
+const contact = document.querySelectorAll("li")[4];
 
-function contactMessage() {
-    confirm("The available developer contact information");
-
-    if(true) {
-        alert("Email Id - jadhavpratik0208@gmail.com");
-    }
+contact.onclick = () => {
+    alert("The available developer contact information in front of Copyright");
 }
