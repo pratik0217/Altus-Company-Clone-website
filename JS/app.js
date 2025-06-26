@@ -1,9 +1,7 @@
-const welcomeMsg = setTimeout(function() {
-    alert("this is clone of Altus Solution Company")
-},2000);
+let contactBtn = document.getElementById("border-box"); 
 
-const contact = document.querySelectorAll("li")[4];
+let contactInfo = ()=> {
+    alert("Developer Emai ID :- jadhavpratik0208@gmail.com");
+};
 
-contact.onclick = () => {
-    alert("The available developer contact information in front of Copyright");
-}
+contactBtn.addEventListener("click",contactInfo);
